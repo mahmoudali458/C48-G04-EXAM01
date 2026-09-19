@@ -41,11 +41,7 @@ namespace OOP0FP
         public int NumOfQuestions
         {
             get => numOfQuestions;
-            set
-            {
-                if (value >= 5)
-                 numOfQuestions = value;
-            }
+            set => numOfQuestions = value;
         }
         public Question[] Questions { get => questions; set => questions = value; }
 
