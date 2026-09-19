@@ -54,5 +54,6 @@ namespace OOP0FP
             Console.WriteLine($"your total marks : {TotalMark}/{grade}");
             Console.WriteLine("++++++++++++++++++++++++++++++");
         }
+
     }
 }
