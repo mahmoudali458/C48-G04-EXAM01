@@ -49,6 +49,7 @@ namespace OOP0FP
         }
         public Question[] Questions { get => questions; set => questions = value; }
 
+
         public abstract void ShowExam();
        
 
